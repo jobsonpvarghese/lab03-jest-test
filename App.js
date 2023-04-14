@@ -22,7 +22,6 @@ function App() {
     }
   }
 
-  console.log(todoList)
   const onRemove = key => {
     setTodoList(todoList.filter(todo => todo.key !== key))
   }
